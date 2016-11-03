@@ -92,7 +92,7 @@ agreement for further details.
 	(output)
 	(rect 1104 456 1280 472)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
-	(text "Q[0..3]" (rect 90 0 147 14)(font "Arial" ))
+	(text "Q[3..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))

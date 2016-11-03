@@ -62,8 +62,8 @@ agreement for further details.
 	(port
 		(pt 0 112)
 		(input)
-		(text "D[0..3]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "D[0..3]" (rect 21 107 87 123)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 21 107 87 123)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
@@ -76,8 +76,8 @@ agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "Q[0..3]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "Q[0..3]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing

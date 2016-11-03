@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect 208 416 416 432)
 	(text "INPUT" (rect 165 0 206 11)(font "Arial" (font_size 6)))
-	(text "Data_IN[0..7]" (rect 5 0 112 14)(font "Arial" ))
+	(text "Data_IN[7..0]" (rect 5 0 112 14)(font "Arial" ))
 	(pt 208 8)
 	(drawing
 		(line (pt 124 12)(pt 149 12))
@@ -72,7 +72,7 @@ agreement for further details.
 	(output)
 	(rect 240 448 416 464)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
-	(text "Q[0..7]" (rect 90 0 147 14)(font "Arial" ))
+	(text "Q[7..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -126,8 +126,8 @@ agreement for further details.
 	(port
 		(pt 0 112)
 		(input)
-		(text "D[0..3]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "D[0..3]" (rect 21 107 87 123)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 21 107 87 123)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
@@ -140,8 +140,8 @@ agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "Q[0..3]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "Q[0..3]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -190,8 +190,8 @@ agreement for further details.
 	(port
 		(pt 0 112)
 		(input)
-		(text "D[0..3]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "D[0..3]" (rect 21 107 87 123)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 21 107 87 123)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
@@ -204,8 +204,8 @@ agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "Q[0..3]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "Q[0..3]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -282,13 +282,13 @@ agreement for further details.
 	(pt 888 376)
 )
 (connector
-	(text "Data_IN[0..3]" (rect 864 376 971 390)(font "Arial" ))
+	(text "Data_IN[3..0]" (rect 864 376 971 390)(font "Arial" ))
 	(pt 936 392)
 	(pt 848 392)
 	(bus)
 )
 (connector
-	(text "Data_IN[4..7]" (rect 511 376 618 390)(font "Arial" ))
+	(text "Data_IN[7..4]" (rect 511 376 618 390)(font "Arial" ))
 	(pt 568 392)
 	(pt 488 392)
 	(bus)
@@ -340,7 +340,7 @@ agreement for further details.
 	(pt 880 360)
 )
 (connector
-	(text "Q[0..3]" (rect 1128 407 1142 464)(font "Arial" )(vertical))
+	(text "Q[3..0]" (rect 1128 407 1142 464)(font "Arial" )(vertical))
 	(pt 1144 312)
 	(pt 1144 472)
 	(bus)
@@ -351,7 +351,7 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(text "Q[4..7]" (rect 752 413 766 470)(font "Arial" )(vertical))
+	(text "Q[7..4]" (rect 752 413 766 470)(font "Arial" )(vertical))
 	(pt 768 312)
 	(pt 768 472)
 	(bus)

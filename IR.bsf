@@ -55,22 +55,22 @@ agreement for further details.
 	(port
 		(pt 0 96)
 		(input)
-		(text "DATA[0..7]" (rect 0 0 94 16)(font "Arial" (font_size 8)))
-		(text "DATA[0..7]" (rect 21 91 115 107)(font "Arial" (font_size 8)))
+		(text "DATA[7..0]" (rect 0 0 94 16)(font "Arial" (font_size 8)))
+		(text "DATA[7..0]" (rect 21 91 115 107)(font "Arial" (font_size 8)))
 		(line (pt 0 96)(pt 16 96)(line_width 3))
 	)
 	(port
 		(pt 216 32)
 		(output)
-		(text "I[4..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "I[4..7]" (rect 129 27 195 43)(font "Arial" (font_size 8)))
+		(text "I[7..4]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "I[7..4]" (rect 129 27 195 43)(font "Arial" (font_size 8)))
 		(line (pt 216 32)(pt 200 32)(line_width 3))
 	)
 	(port
 		(pt 216 48)
 		(output)
-		(text "W[0..3]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "W[0..3]" (rect 129 43 195 59)(font "Arial" (font_size 8)))
+		(text "W[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "W[3..0]" (rect 129 43 195 59)(font "Arial" (font_size 8)))
 		(line (pt 216 48)(pt 200 48)(line_width 3))
 	)
 	(drawing

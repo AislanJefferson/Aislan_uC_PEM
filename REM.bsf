@@ -21,14 +21,14 @@ agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 256 112)
-	(text "REGISTRADOR_8BITS" (rect 5 0 165 16)(font "Arial" (font_size 8)))
+	(rect 16 16 200 112)
+	(text "REM" (rect 5 0 33 16)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 78 41 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "L_N" (rect 0 0 28 16)(font "Arial" (font_size 8)))
-		(text "L_N" (rect 21 27 49 43)(font "Arial" (font_size 8)))
+		(text "Lm_N" (rect 0 0 37 16)(font "Arial" (font_size 8)))
+		(text "Lm_N" (rect 21 27 58 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
@@ -41,18 +41,18 @@ agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "Data_IN[7..0]" (rect 0 0 122 16)(font "Arial" (font_size 8)))
-		(text "Data_IN[7..0]" (rect 21 59 143 75)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "D[3..0]" (rect 21 59 87 75)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
-		(pt 240 32)
+		(pt 184 32)
 		(output)
-		(text "Q[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "Q[7..0]" (rect 153 27 219 43)(font "Arial" (font_size 8)))
-		(line (pt 240 32)(pt 224 32)(line_width 3))
+		(text "Q[3..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "Q[3..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 224 80))
+		(rectangle (rect 16 16 168 80))
 	)
 )

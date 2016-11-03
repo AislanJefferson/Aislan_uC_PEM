@@ -41,8 +41,8 @@ agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "Data_IN[0..7]" (rect 0 0 122 16)(font "Arial" (font_size 8)))
-		(text "Data_IN[0..7]" (rect 21 59 143 75)(font "Arial" (font_size 8)))
+		(text "Data_IN[7..0]" (rect 0 0 122 16)(font "Arial" (font_size 8)))
+		(text "Data_IN[7..0]" (rect 21 59 143 75)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
@@ -55,15 +55,15 @@ agreement for further details.
 	(port
 		(pt 312 32)
 		(output)
-		(text "Q[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "Q[0..7]" (rect 225 27 291 43)(font "Arial" (font_size 8)))
+		(text "Q[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "Q[7..0]" (rect 225 27 291 43)(font "Arial" (font_size 8)))
 		(line (pt 312 32)(pt 296 32)(line_width 3))
 	)
 	(port
 		(pt 312 48)
 		(output)
-		(text "Data_OUT[0..7]" (rect 0 0 132 16)(font "Arial" (font_size 8)))
-		(text "Data_OUT[0..7]" (rect 159 43 291 59)(font "Arial" (font_size 8)))
+		(text "Data_OUT[7..0]" (rect 0 0 132 16)(font "Arial" (font_size 8)))
+		(text "Data_OUT[7..0]" (rect 159 43 291 59)(font "Arial" (font_size 8)))
 		(line (pt 312 48)(pt 296 48)(line_width 3))
 	)
 	(drawing

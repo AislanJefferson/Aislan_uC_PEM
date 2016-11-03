@@ -1,6 +1,0 @@
-#Ignorar pastas nao necessarias ao envio
-db/
-incremental_db/
-output_files/
-simulation/
-.gitignore
